@@ -36,6 +36,15 @@
   color: #61dafb;
 }
 
+nav {
+  border-bottom: 2px solid rgb(191, 235, 179);
+}
+
+.profileImg {
+  width: 10px;
+  height: 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

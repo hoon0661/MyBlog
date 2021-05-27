@@ -13,10 +13,13 @@ class BlogEditor extends Component {
 
   handleChange = (html) => {
     console.log(html);
+    this.setState({ content: html });
     // this.setState({ content: e.target.value });
   };
 
-  handleSubmit = () => {};
+  handleSubmit = () => {
+    
+  };
   render() {
     return (
       <>
